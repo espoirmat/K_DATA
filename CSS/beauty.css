@@ -261,12 +261,12 @@ img
 
 
 
-/* css pour entête la page A propos */
+/* css pour entête la page A propos et service */
 .item_principal
 {
     display: flex;
     width: 100%;
-    background-color: rgba(231, 235, 238, 0.808);
+    background-color: rgba(231, 235, 238, 0.61);
 }
 
 .item_principal .Item_gauche
@@ -309,6 +309,7 @@ img
     justify-content: space-around;
 }
 
+/* les bouttons est pour la page service*/
 
 .item_principal .Item_gauche .boutton button
 {
