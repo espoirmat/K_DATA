@@ -232,3 +232,121 @@ img
     height: 180px;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*style pour le footer*/
+footer
+{
+    margin-top: 1%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+}
+
+footer .block
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 2%;
+    text-align: center;
+}
+footer .block h1
+{
+    text-align: center;
+}
+
+footer .block img
+{
+    width: 60px;
+    height: 60px;
+}
+
+footer .block a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 1%;
+    font-size: 1.5rem;
+}
+
+footer .block .block1
+{
+    display: flex;
+    justify-content: center;
+}
+
+/*fin du style pour le footer*/
