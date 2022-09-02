@@ -261,6 +261,159 @@ img
 
 
 
+/* css pour entête la page A propos */
+.item_principal
+{
+    display: flex;
+    width: 100%;
+    background-color: rgba(231, 235, 238, 0.808);
+}
+
+.item_principal .Item_gauche
+{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+
+.item_principal .Item_gauche p
+{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    padding-bottom: 3%;
+}
+
+.item_principal .Item_gauche h1
+{
+    padding-bottom: 3%;
+}
+
+.item_principal .Item_gauche ul
+{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: circle linear-gradient(green);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.item_principal .Item_gauche .boutton 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.item_principal .Item_gauche .boutton button
+{
+    width: 49%;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+
+.item_principal .Item_gauche .boutton button:hover
+{
+    width: 49%;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    border: dashed 1px whitesmoke;
+    color: whitesmoke;
+    background-color: green;
+}
+
+.item_principal .Item_gauche ul li
+{
+    width: 45%;
+    margin: 2%;
+}
+.item_principal .item_droit
+{
+    width: 50%;
+}
+
+.item_principal .item_droit img
+{
+    width: 70%;
+    height: 300px;
+    margin: 5% 15%;
+}
+
+
+.item_independant
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 98%;
+    height: 200px;
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
+    margin: 2% 0%;
+}
+
+.item_independant .contenue
+{
+    background-color: whitesmoke;
+    margin: 1%;
+    border-radius: 20px;
+    padding: 2%;
+    
+}
+
+
+.item_independant .contenue h3
+{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.item_independant .contenue p
+{
+    text-align: justify;
+}
+
+.item_description
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 98%;
+    height: 200px;
+    background-color:rgba(231, 235, 238, 0.808);
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.item_description h1
+{
+    text-align: center;
+}
+.item_description .contenue_block
+{
+    display: flex;
+    width: 100%;
+}
+.item_description .contenue_block .contenue
+{
+    align-items: center;
+    width: 24%;
+    margin: 0.5%;
+    text-align: center;
+}
+
+.item_description .contenue_block .contenue img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+/*fin du style pour la page à propos*/
 
 
 
