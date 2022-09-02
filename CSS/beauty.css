@@ -4,3 +4,92 @@
     margin: 0%;
 }
 
+/*css pour entête */
+/*css pour la ligne
+    elle est là pour indiquer l'heure du début et la fin du travail 
+    elle est accompagne de cordonnéer de l'entreprise*/
+
+
+.ligne
+{
+    display: flex;
+    height: 30px;
+    
+}
+
+.ligne .times
+{
+    width: 40%;
+    background-attachment: fixed;
+    color: whitesmoke;
+    background-color: rgba(0, 128, 0, 0.877);
+    text-align: right;
+    padding-right: 2%;
+    padding-top: 0.5%;
+}
+
+.ligne .contact
+{
+    width: 70%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.842);
+    justify-content: right;
+    padding-top: 0.5%;
+    
+}
+.ligne a
+{
+    text-decoration: none;
+    margin-bottom: 1%;
+    color: black;
+    margin-right: 2%;
+    padding-left: 2%;
+    border-left: solid 1px black;
+}
+
+
+/*css pour la navigateur*/
+nav
+{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+nav img
+{
+    width: 100px;
+    height: 70px;
+}
+
+nav .liens 
+{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: gray;
+    width: 70%; 
+}
+ nav .liens a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    width: 24%;
+    height: 40px;
+    text-align: center;
+    padding-top: 2%;
+    color: black;
+}
+
+nav .liens a[href="#"]
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    width: 15%;
+    background-color: green;
+}
+
+/*fin css pour entête */
